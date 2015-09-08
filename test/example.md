@@ -19,3 +19,7 @@ and some more:
 {% fragment Second %}
 
 {% endidio %}
+
+To include a whole code file:
+
+{% code _src/hello.py %}
