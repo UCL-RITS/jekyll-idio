@@ -25,7 +25,7 @@ In your source file:
 
 ``` markdown
 Consider this code fragment:
-{% idio path/to/file.rb MyFragment %}
+{% idio My Fragment, file.rb %}
 ```
 
 With file.rb as:
