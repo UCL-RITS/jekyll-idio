@@ -1,4 +1,7 @@
 markdown: redcarpet
 
+defaults:
+  - values: {layout: default}
+    
 idio:
   fence: True

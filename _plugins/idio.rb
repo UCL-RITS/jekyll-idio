@@ -81,8 +81,8 @@ module Idio
 
     def render(context)
    	  config=  context.registers[:site].config.fetch("idio",{})
-      @old = config['path']
-      config['path']=@path
+      @old = config.fetch('path', "")
+      config['path']=File.join(@old, @path)
       context.registers[:site].config["idio"]=config
       catch = super
       config['path']=@old
