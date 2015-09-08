@@ -54,5 +54,16 @@ Custom separators:
 _config.yaml:
 
 ``` yaml
-idio_separator: /* Idio */ # Or whatever
+idio: 
+	separator: /* Idio */ # Or whatever
+```
+
+Automatic fenced code blocks
+----------------------------
+
+With this option, if a file has a recognised file extension, the fragment will automatically be placed in an appropriate markdown fenced code block.
+
+```yaml
+idio:
+	fenced: true
 ```
