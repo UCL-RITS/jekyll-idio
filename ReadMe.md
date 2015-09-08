@@ -7,8 +7,10 @@ This is useful for building documentation websites using Jekyll.
 
 Installation:
 
+``` bash
 gem install specific_install
 gem specific_install UCL-RITS/jekyll-idio.git
+```
 
 Jekyll _config.yml:
 
